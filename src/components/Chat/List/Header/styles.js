@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.aside`
-  width: 40rem;
+  width: 48rem;
   height: 100%;
   background: black;
   border-right: 1px solid rgba(0, 0, 0, 0.08);
 
-  @media (max-width: 100rem) {
+  @media (max-width: 12.3rem) {
     width: 25rem;
   }
 `;
@@ -14,8 +14,7 @@ export const Wrapper = styled.aside`
 export const Header = styled.header`
   background-color: #ededed;
   width: 100%;
-  padding: 10px 15px;
-  position: relative;
+  padding: 15px;
 
   display: flex;
   justify-content: space-between;

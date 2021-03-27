@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useContext } from "react";
+import { MenuProfileContext } from "../../../../contexts/MenuProfileContext";
 
 import ChatMenu from "../Menu";
 
@@ -11,6 +12,7 @@ import * as S from "./styles";
 
 const ChatListHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { openMenu } = useContext(MenuProfileContext);
   const menuRef = useRef(null);
 
   const handleClickOutside = event => {
@@ -27,7 +29,7 @@ const ChatListHeader = () => {
     <>
       <S.Wrapper>
         <S.Header>
-          <S.UserImage>
+          <S.UserImage onClick={openMenu}>
             <img src={userIcon} width="35" alt="Foto de perfil do usuário" />
           </S.UserImage>
           <S.Actions ref={menuRef}>

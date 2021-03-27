@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "action": "Perfil"
+  },
+  {
+    "id": 2,
+    "action": "Novo grupo"
+  },
+  {
+    "id": 3,
+    "action": "Favoritas"
+  },
+  {
+    "id": 4,
+    "action": "Configurações"
+  }
+]
