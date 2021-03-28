@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "message": "Olá, Maria!",
+    "time": "00:00"
+  },
+  {
+    "id": 2,
+    "message": "Oiiii!! testando apenas",
+    "time": "01:58"
+  },
+  {
+    "id": 3,
+    "message": "Maria, agora eu tenho esse tal de zap!",
+    "time": "02:42"
+  },
+  {
+    "id": 4,
+    "message": "É interessante até haha",
+    "time": "02:44"
+  },
+  {
+    "id": 5,
+    "message": "Quando estiver por aí me avise",
+    "time": "04:29"
+  },
+  {
+    "id": 6,
+    "message": "Bom dia!! Tudo bem?",
+    "time": "06:17"
+  }
+]

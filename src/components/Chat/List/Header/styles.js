@@ -1,14 +1,7 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.aside`
-  width: 48rem;
-  height: 100%;
-  background: black;
-  border-right: 1px solid rgba(0, 0, 0, 0.08);
-
-  @media (max-width: 12.3rem) {
-    width: 25rem;
-  }
+export const Wrapper = styled.div`
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 `;
 
 export const Header = styled.header`

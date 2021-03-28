@@ -40,15 +40,13 @@ export default createGlobalStyle`
 `;
 
 export const Container = styled.div`
-  max-width: 150rem;
-  width: 100%;
+  width: 150rem;
   height: calc(100vh - 40px);
   margin: 20px auto;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-  background: tomato;
   position: relative;
 
-  @media (max-width: 100rem) {
+  @media (max-width: 1200px) {
     margin: 0 auto;
     height: 100vh;
   }
