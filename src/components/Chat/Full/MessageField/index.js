@@ -17,6 +17,7 @@ const ChatFullMessageField = () => {
     <S.Wrapper>
       <form onSubmit={handleSubmitMessage}>
         <Input
+          type="text"
           placeholder="Digite uma mensagem"
           onChange={({ target }) => setMessage(target.value)}
           value={message}
