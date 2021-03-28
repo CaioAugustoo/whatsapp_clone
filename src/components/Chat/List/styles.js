@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.aside`
+  position: relative;
   width: 55rem;
   height: 100%;
   background: #fff;

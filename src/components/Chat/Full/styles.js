@@ -6,4 +6,5 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   background-image: url(${backgroundChat});
+  position: relative;
 `;

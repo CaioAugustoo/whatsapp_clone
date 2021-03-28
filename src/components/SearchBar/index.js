@@ -10,6 +10,7 @@ const SearchBar = () => {
     alert(`Você pesquisou por: ${search}`);
     setSearch("");
   };
+
   return (
     <S.Wrapper>
       <form onSubmit={handleSubmitSearch}>

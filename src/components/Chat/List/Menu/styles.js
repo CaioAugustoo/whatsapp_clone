@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   position: absolute;
   z-index: 10;
-  top: 70px;
-  right: 0;
+  top: 60px;
+  right: 20px;
   background: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
