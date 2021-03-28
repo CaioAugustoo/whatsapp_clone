@@ -1,18 +1,18 @@
 import { MenuProfile } from "./contexts/MenuProfileContext";
 
-import ChatList from "./components/Chat/List/index";
+import Profile from "./components/Profile";
+import Chat from "./components/Chat";
 
 import GlobalStyles, { Container } from "./styles/global";
-import Profile from "./components/Profile";
 
 function App() {
   return (
     <MenuProfile>
       <Container>
-        <ChatList />
-        <GlobalStyles />
+        <Chat />
         <Profile />
       </Container>
+      <GlobalStyles />
     </MenuProfile>
   );
 }

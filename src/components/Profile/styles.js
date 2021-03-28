@@ -2,42 +2,30 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   height: 100%;
-  width: 48rem;
+  width: 40.3rem;
   background: #ededed;
 
   position: absolute;
-  left: 0;
   top: 0;
   z-index: 1;
 
   transition: all 0.1s ease;
 
-  opacity: 0;
-  pointer-events: none;
-
-  &.active {
-    opacity: 1;
-    pointer-events: all;
-  }
-
-  @media (max-width: 12.3rem) {
-    width: 25rem;
+  @media (max-width: 1200px) {
+    width: 34.6rem;
   }
 `;
 
 export const Header = styled.header`
   background: #00bfa5;
   height: 13rem;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 
   padding: 30px 0px 20px 0px;
-
-  @media (max-width: 12.3rem) {
-    width: 25rem;
-  }
 `;
 
 export const Back = styled.div`

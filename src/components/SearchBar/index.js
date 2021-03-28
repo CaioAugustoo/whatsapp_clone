@@ -3,11 +3,12 @@ import Input from "../Input";
 import * as S from "./styles";
 
 const SearchBar = () => {
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState("");
 
   const handleSubmitSearch = event => {
     event.preventDefault();
     alert(`Você pesquisou por: ${search}`);
+    setSearch("");
   };
   return (
     <S.Wrapper>
