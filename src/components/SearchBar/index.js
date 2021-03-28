@@ -15,6 +15,7 @@ const SearchBar = () => {
     <S.Wrapper>
       <form onSubmit={handleSubmitSearch}>
         <Input
+          type="text"
           onChange={({ target }) => setSearch(target.value)}
           value={search}
           placeholder="Pesquisar ou começar uma nova conversa"
